@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 8080;
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://resume-analyser.vercel.app'   // your vercel URL (we'll set this soon)
+    'https://resume-analyser-theta-three.vercel.app'   // your vercel URL (we'll set this soon)
   ],
   methods     : ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
