@@ -271,8 +271,8 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Anuj**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Anuj Singh**
+- GitHub: [@anujsingh4](https://github.com/anujsingh4)
 - LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
 
 ---
