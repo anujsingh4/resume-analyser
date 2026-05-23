@@ -10,7 +10,7 @@ A full-stack web application that analyses resumes against job descriptions usin
 
 > Upload your resume and paste a job description to get started
 
-![AI Resume Analyser](https://via.placeholder.com/800x450.png?text=AI+Resume+Analyser+Screenshot)
+![AI Resume Analyser](./frontend/public/screenshot.png)
 
 ---
 
