@@ -2,7 +2,7 @@
 
 A full-stack web application that analyses resumes against job descriptions using AI. Upload your resume, paste a job description, and get an instant match score, keyword analysis, and AI-powered improvement suggestions powered by OpenAI GPT-4.
 
-🔗 **Live Demo:** [your-app-url.vercel.app](https://your-app-url.vercel.app)
+🔗 **Live Demo:** [https://resume-analyser-theta-three.vercel.app](https://resume-analyser-theta-three.vercel.app)
 
 ---
 
