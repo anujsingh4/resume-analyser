@@ -273,7 +273,6 @@ This project is licensed under the MIT License.
 
 **Anuj Singh**
 - GitHub: [@anujsingh4](https://github.com/anujsingh4)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
 
 ---
 
