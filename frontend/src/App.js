@@ -77,7 +77,7 @@ export default function App() {
     formData.append('jobDescription', jobDescription);
 
     try {
-      const res  = await fetch('http://localhost:8080/api/ai-analyse', {
+      const res = await fetch('https://resume-analyser-backend-60nd.onrender.com/api/ai-analyse', {
         method: 'POST',
         body  : formData
       });

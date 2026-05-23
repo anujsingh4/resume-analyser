@@ -11,8 +11,11 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(cors({
-  origin: 'http://localhost:3000',
-  methods: ['GET', 'POST'],
+  origin: [
+    'http://localhost:3000',
+    'https://resume-analyser.vercel.app'   // your vercel URL (we'll set this soon)
+  ],
+  methods     : ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));
 app.use(express.json());
