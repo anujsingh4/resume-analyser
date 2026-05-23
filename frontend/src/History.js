@@ -15,7 +15,7 @@ export default function History({ onBack }) {
   const [error,    setError]    = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/history')
+    fetch('https://resume-analyser-backend-60nd.onrender.com/api/history')
       .then(res => res.json())
       .then(data => {
         setAnalyses(data);
