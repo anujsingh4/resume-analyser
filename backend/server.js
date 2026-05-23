@@ -3,7 +3,8 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const uploadRoute = require('./routes/upload');
 const analyseRoute  = require('./routes/analyse');
-const aiAnalyseRoute = require('./routes/aiAnalyse'); 
+const aiAnalyseRoute = require('./routes/aiAnalyse');
+const historyRoute   = require('./routes/history');  
 
 dotenv.config();
 
@@ -25,6 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', uploadRoute);
 app.use('/api', analyseRoute); 
 app.use('/api', aiAnalyseRoute);
+app.use('/api', historyRoute);
 
 app.get('/', (req, res) => {
   res.send('Resume Analyser API is running!');
